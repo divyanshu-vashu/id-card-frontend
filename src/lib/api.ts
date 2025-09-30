@@ -1,4 +1,4 @@
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://id-card-backend-b1b5.onrender.com';
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://id-card-backend-b1b5.onrender.com/api';
 
 export interface RequestOtpData {
   phone: string;
